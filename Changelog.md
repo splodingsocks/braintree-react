@@ -1,4 +1,5 @@
 # 3.0.0
 
-- Removed standalone (browser global) build
-  - Renamed `dist/braintree-react-cjs.js` to dist/braintree-react.js` (overwriting the browser global build that used to live in `dist/braintree-react.js`
+- Removed the ability to rely on `window.react` - you now must use CommonJS to build `braintree-react`.
+  - Removed standalone (browser global) build (was in `dist/braintree-react.js`)
+  - Renamed `dist/braintree-react-cjs.js` to dist/braintree-react.js`
